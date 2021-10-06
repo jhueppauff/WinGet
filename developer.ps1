@@ -19,7 +19,7 @@ winget install -e DominikReichl.KeePass
 winget install -e 7zip.7zip
 #winget install -e Notepad++.Notepad++
 winget install -e Microsoft.WindowsTerminal
-winget install -e Microsoft.RemoteDesktopClient
+#winget install -e Microsoft.RemoteDesktopClient
 winget install -e PuTTY.PuTTY
 #winget install -e vim.vim
 #winget install -e TimKosse.FileZillaClientNightly
