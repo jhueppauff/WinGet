@@ -32,7 +32,7 @@ winget install -e Microsoft.VisualStudioCode
 winget install -e Microsoft.dotnet
 winget install -e Python.Python.3
 winget install -e Docker.DockerDesktop
-winget install -e OpenJS.Nodejs
+winget install -e OpenJS.NodeJS
 
 ##### Install Azure Tools
 winget install -e Microsoft.AzureStorageExplorer
