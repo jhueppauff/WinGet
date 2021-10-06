@@ -1,6 +1,12 @@
 
 #### Install Colloboration
 winget install -e Discord.Discord
+winget install -e SlackTechnologies.Slack
+#winget install -e Zoom.Zoom
+
+#### Install Gaming
+#winget install -e Valve.Steam
+#winget install -e GOG.Galaxy
 
 #### Install Utilities
 winget install -e DominikReichl.KeePass
@@ -9,6 +15,8 @@ winget install -e 7zip.7zip
 winget install -e Microsoft.WindowsTerminal
 winget install -e Microsoft.RemoteDesktopClient
 winget install -e PuTTY.PuTTY
+#winget install -e vim.vim
+#winget install -e TimKosse.FileZillaClientNightly
 
 #### Install Multimedia
 winget install -e Spotify.Spotify
@@ -20,6 +28,8 @@ winget install -e Git.Git
 winget install -e Microsoft.VisualStudioCode
 winget install -e Microsoft.dotnet
 winget install -e Python.Python.3
+winget install -e Docker.DockerDesktop
+winget install -e OpenJS.Nodejs
 
 ##### Install Azure Tools
 winget install -e Microsoft.AzureStorageExplorer
