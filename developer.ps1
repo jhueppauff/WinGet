@@ -4,6 +4,9 @@ winget install -e Discord.Discord
 winget install -e SlackTechnologies.Slack
 #winget install -e Zoom.Zoom
 
+#### Install Office
+winget install -e Microsoft.Office
+
 #### Install Gaming
 #winget install -e Valve.Steam
 #winget install -e GOG.Galaxy
