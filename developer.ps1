@@ -27,6 +27,7 @@ winget install -e OpenVPNTechnologies.OpenVPNConnect
 #### Windows Terminal
 winget install -e Microsoft.WindowsTerminal
 winget install -e JanDeDobbeleer.OhMyPosh
+oh-my-posh --init --shell pwsh --config ~/jandedobbeleer.omp.json | Invoke-Expression
 
 #### Install Multimedia
 winget install -e Spotify.Spotify
