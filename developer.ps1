@@ -60,4 +60,4 @@ winget install -e Microsoft.AzureCLI
 #winget install -e Microsoft.PowerBI
 
 ### Install Visual Studio
-winget install Microsoft.VisualStudio.2019.Community --silent --override "--wait --quiet --addProductLang En-us --add Microsoft.VisualStudio.Workload.Azure"
+winget install Microsoft.VisualStudio.2022.Community --silent --override "--wait --quiet --addProductLang En-us --add Microsoft.VisualStudio.Workload.Azure"
