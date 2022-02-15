@@ -41,3 +41,4 @@ code --install-extension redhat.vscode-yaml
 
 #### Theme (optional)
 code --install-extension robbowen.synthwave-vscode
+code --install-extension vscode-icons-team.vscode-icons
