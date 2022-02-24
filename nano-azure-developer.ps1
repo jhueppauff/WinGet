@@ -27,7 +27,7 @@ code --install-extension ms-vscode.azure-account
 code --install-extension ms-vscode.azurecli
 code --install-extension ms-azuretools.vscode-cosmosdb
 code --install-extension ms-azuretools.vscode-azurefunctions
-code --install-extension ms-azuredevops.azure-pipelines
+code --install-extension ms-azure-devops.azure-pipelines
 code --install-extension msazurermtools.azure-vscode-tools
 code --install-extension ms-azuretools.vscode-azureresourcegroups
 code --install-extension ms-azuretools.vscode-azurestorage
