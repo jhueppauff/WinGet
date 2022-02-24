@@ -30,7 +30,7 @@ code --install-extension ms-azuretools.vscode-azurefunctions
 code --install-extension ms-azuredevops.azure-pipelines
 code --install-extension msazurermtools.azure-vscode-tools
 code --install-extension ms-azuretools.vscode-azureresourcegroups
-code --install-extension ms-azuretools.azurestorage
+code --install-extension ms-azuretools.vscode-azurestorage
 code --install-extension ms-azuretools.vscode-bicep
 code --install-extension ms-dotnettools-csharp
 code --install-extension ms-azuretools.vscode-docker
