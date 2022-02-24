@@ -22,7 +22,7 @@ winget install -e Microsoft.AzureCLI
 # winget install -e Microsoft.ServiceFabricRuntime
 
 #### VS Code Extension
-code --install-extension ms-vscode.csharp
+code --install-extension ms-dotnettools.csharp
 code --install-extension ms-vscode.azure-account
 code --install-extension ms-vscode.azurecli
 code --install-extension ms-azuretools.vscode-cosmosdb
