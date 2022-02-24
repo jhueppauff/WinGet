@@ -8,6 +8,7 @@ winget install -e Git.Git
 #winget install -e GitHub.cli
 winget install -e Microsoft.VisualStudioCode
 winget install -e Microsoft.dotnet
+winget install -e Docker.DockerDesktop
 
 ##### Install Azure Tools
 winget install -e Microsoft.AzureStorageExplorer
