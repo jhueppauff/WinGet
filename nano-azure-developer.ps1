@@ -9,6 +9,7 @@ winget install -e Git.Git
 winget install -e Microsoft.VisualStudioCode
 winget install -e Microsoft.dotnet
 winget install -e Docker.DockerDesktop
+winget install -e Mirantis.Lens
 
 ##### Install Azure Tools
 winget install -e Microsoft.AzureStorageExplorer
