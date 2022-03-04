@@ -22,6 +22,7 @@ winget install -e Microsoft.AzureFunctionsCoreTools
 winget install -e Microsoft.Bicep
 winget install -e Microsoft.AzureCLI
 # winget install -e Microsoft.ServiceFabricRuntime
+install-module az -Scope CurrentUser -Force
 
 #### VS Code Extension
 code --install-extension ms-dotnettools.csharp
