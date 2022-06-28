@@ -41,6 +41,8 @@ code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension ms-vscode.powershell
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 
+code --install-extension github.copilot
+
 code --install-extension redhat.vscode-yaml
 
 #### Theme (optional)
