@@ -1,7 +1,7 @@
 #### Windows Terminal
 winget install -e Microsoft.WindowsTerminal
-Invoke-WebRequest -uri https://raw.githubusercontent.com/jhueppauff/WinGet/main/custom.omp.json -OutFile $env:LOCALAPPDATA\Programs\oh-my-posh\themes\custom-theme.omp.json
 winget install -e JanDeDobbeleer.OhMyPosh
+Invoke-WebRequest -uri https://raw.githubusercontent.com/jhueppauff/WinGet/main/custom.omp.json -OutFile $env:LOCALAPPDATA\Programs\oh-my-posh\themes\custom-theme.omp.json
 Add-Content -path $PROFILE -Value "oh-my-posh --init --shell pwsh --config ~\custom-theme.omp.json | Invoke-Expression"
 
 #### Install Developer Tools
