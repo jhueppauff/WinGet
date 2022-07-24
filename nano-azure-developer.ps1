@@ -1,7 +1,22 @@
 #### Windows Terminal
 winget install -e Microsoft.WindowsTerminal
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 winget install -e JanDeDobbeleer.OhMyPosh
 Invoke-WebRequest -uri https://raw.githubusercontent.com/jhueppauff/WinGet/main/custom.omp.json -OutFile $env:LOCALAPPDATA\Programs\oh-my-posh\themes\custom-theme.omp.json
+
+# Install Font
+Invoke-WebRequest -uri https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CascadiaCode.zip -OutFile $HOME\Downloads\CascadiaCode.zip
+Expand-Archive -Path $HOME\Downloads\CascadiaCode.zip -DestinationPath $HOME\Downloads\CascadiaCode
+
+$fonts = (New-Object -ComObject Shell.Application).Namespace(0x14)
+foreach ($file in gci $HOME\Downloads\CascadiaCode\*.ttf)
+{
+    $fileName = $file.Name
+    if (-not(Test-Path -Path "C:\Windows\fonts\$fileName" )) {
+        dir $file | %{ $fonts.CopyHere($_.fullname) }
+    }
+}
+
 Add-Content -path $PROFILE -Value "oh-my-posh --init --shell pwsh --config ~\custom-theme.omp.json | Invoke-Expression"
 
 #### Install Developer Tools
